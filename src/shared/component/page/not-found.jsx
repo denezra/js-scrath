@@ -2,8 +2,10 @@
 
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Link } from 'react-router-dom'
+import { HOME_PAGE_ROUTE } from '../../routes'
 
-const title = 'Page Not Found'
+const title = 'Page Not Found!'
 
 const NotFoundPage = () =>
   <div className="container mt-4">
@@ -15,5 +17,5 @@ const NotFoundPage = () =>
       </div>
     </div>
   </div>
-  
+
 export default NotFoundPage
